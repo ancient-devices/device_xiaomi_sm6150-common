@@ -386,6 +386,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel
 
+# Pulse Music
+PRODUCT_PACKAGES += \
+   PulseMusic
+
 # QMI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
