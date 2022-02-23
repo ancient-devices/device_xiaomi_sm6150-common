@@ -412,7 +412,7 @@ PRODUCT_PACKAGES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    RemovePkgs
+    remove_packages
     
 # RIL
 PRODUCT_PACKAGES += \
