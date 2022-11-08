@@ -216,6 +216,9 @@ on post-fs-data
     # Create vpp directory
     mkdir /data/vendor/vpp 0770 media media
 
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
+
     # Make MTU adjusting
     write /proc/sys/net/ipv4/tcp_mtu_probing 1
 
